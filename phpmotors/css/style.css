@@ -1,0 +1,41 @@
+#navLink {
+    float: right;
+    font-size: 24px;
+    margin-right: 12px;
+}
+#navLogo {
+    margin-top: 5px;
+}
+
+
+
+.myMenu {
+    background-color: #3a3a3a;
+    
+
+
+}
+
+.myMenu a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px 20px;
+
+}
+ul{
+    list-style-type: none;
+
+    margin: 10px;
+  padding: 14px 2px;
+}
+li {
+    display: inline-block;
+    /* padding: 24px; */
+    /* margin: 0; */
+}
+
+/* This for the large screen */
+
+
