@@ -22,9 +22,12 @@
 
     <main>
         <section>
-            <h1>Content Title Here</h1>
+            <h2>Content Title Here</h2>
         </section>
     </main>
+
+    <hr>  
+
 
     <footer>
         <?php include $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/common/footer.php'; ?>

@@ -1,10 +1,11 @@
 #navLink {
     float: right;
-    font-size: 24px;
+    font-size: 26px;
     margin-right: 12px;
 }
+
 #navLogo {
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 
@@ -12,8 +13,6 @@
 .myMenu {
     background-color: #3a3a3a;
     
-
-
 }
 
 .myMenu a {
@@ -21,21 +20,71 @@
     text-decoration: none;
     text-align: left;
     font-size: 18px;
-    padding: 10px 20px;
+    /* padding: 3px 3px; */
 
 }
-ul{
+
+ul {
     list-style-type: none;
-
     margin: 10px;
-  padding: 14px 2px;
+    padding: 8px 1px;
 }
+
 li {
     display: inline-block;
-    /* padding: 24px; */
+    /* padding: 6px 4px; */
     /* margin: 0; */
 }
 
+.myMenu li a {
+    padding: 5px 5px;
+
+}
+
+hr {
+    height: 5px;
+    background-color: #3a3a3a;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+a:active {
+    background-color: #4c96d7;
+  } 
+  a:hover {
+    background-color: #a6cbeb;
+    color: #3a3a3a !important;
+  }
+
+
+
+
 /* This for the large screen */
 
+@media screen and (min-width: 720px) {
 
+    html {
+        background-image: url(../images/site/small_check.jpg);
+        background-repeat: repeat;
+        margin-top: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    body {
+        background-color: #ffffff;
+        border-style: solid;
+        border-width: 7px;
+        border-color: #4c96d7;
+    }
+    a:active {
+        background-color: #4c96d7;
+      }
+
+      /* a:hover {
+        color: #a6cbeb;
+      } */
+}
