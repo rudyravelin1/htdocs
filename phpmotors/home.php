@@ -28,10 +28,8 @@
             Superman doors<br>
             Fuzzy dice!</p>
 
-
-
-            <img src="../phpmotors/images/delorean.jpg" alt="Delorean car">
-            <img src="/phpmotors/images/site/own_today.png" alt="Today owner">
+            <img class="delorean-car" src="../phpmotors/images/delorean.jpg" alt="Delorean car">
+            <img class="own-today" src="/phpmotors/images/site/own_today.png" alt="Today owner">
         </section>
 
         <section>
