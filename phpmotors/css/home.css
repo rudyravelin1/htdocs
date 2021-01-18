@@ -58,7 +58,19 @@ a:active {
     color: #3a3a3a !important;
   }
 
+.first-section {
+    color: #4c96d7;
+    
+}
+#title-1{
+    margin-bottom: 0;
+}
 
+#paragraph-one{
+    text-align: left;
+    margin-top: 0;
+    
+}
 
 
 /* This for the large screen */

@@ -21,12 +21,15 @@
     </nav>
 
     <main>
-        <section>
-            <h2>Welcome to PHP Motors!</h2><br>
-            <h2>DMC Delorean</h3>
-            <p>3 Cup holders</p>
-            <p>Superman doors</p>
-            <p>Fuzzy dice!</p>
+    <h2>Welcome to PHP Motors!</h2>
+        <section class="first-section">
+            <h2 id="title-1">DMC Delorean</h2>
+            <p id="paragraph-one">3 Cup holders<br>
+            Superman doors<br>
+            Fuzzy dice!</p>
+
+
+
             <img src="../phpmotors/images/delorean.jpg" alt="Delorean car">
             <img src="/phpmotors/images/site/own_today.png" alt="Today owner">
         </section>
