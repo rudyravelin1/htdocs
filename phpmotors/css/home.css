@@ -110,13 +110,51 @@ a:active {
 
 } 
 
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+    padding: 30px 30px 30px 30px;
+    justify-content: space-around;
+    
+  }
 
+.pic-1{
+    width: 150px;
+    height: 50%;
+    background: #4c96d7;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
 
+.pic-2{
+    width: 150px;
+    height: 50%;
+    background: #4c96d7;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
 
+.pic-3{
+    width: 150px;
+    height: 50%;
+    background: #4c96d7;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
 
-
-
-
+.pic-4{
+    width: 150px;
+    height: 50%;
+    background: #4c96d7;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+    position: center;
+}
 
 /* This for the large screen */
 

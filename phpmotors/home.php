@@ -37,27 +37,37 @@
             <!-- <h2>DMC Delorean Reviews</h2> -->
             <ul id="li-reviews">       
                 <li>"So fast its almost like traveling in time." (4/5)</li>
-                <li>."Coolest ride on the road." (4/5)</li>
-                <li>."I'm feeling Marty McFly!." (5/5)</li>
-                <li>."The most futuristic ride of our day." (4.5/5)</li>
-                <li>."80's livin and I love it!." (5/5)</li>
+                <li>"Coolest ride on the road." (4/5)</li>
+                <li>"I'm feeling Marty McFly!." (5/5)</li>
+                <li>"The most futuristic ride of our day." (4.5/5)</li>
+                <li>"80's livin and I love it!." (5/5)</li>
             </ul>
 </div>
-        <section>
-            <h2>Delorean Upgrades</h2>
+
+<h2>Delorean Upgrades</h2>
+
+        <div class="container">
+        <div class="pic-1">
             <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux Capacitor">
             <p><a href="#">Flux Capacitor</a></p>
-
+           </div>
+            
+            <div class="pic-2">
             <img src="/phpmotors/images/upgrades/flame.jpg" alt="Flame Decals">
             <p><a href="#">Flame Decals</a></p>
+            </div>
 
+            <div class="pic-3">
             <img src="/phpmotors/images/upgrades/bumper_sticker.jpg" alt="Bumper Stickers">
             <p><a href="#">Bumper Stickers</a></p>
+            </div>
 
+            <div class="pic-4">
             <img src="/phpmotors/images/upgrades/hub-cap.jpg" alt="Hub Caps">
             <p><a href="#">Hub Caps</a></p>
+            </div>
 
-        </section>
+            </div>
     </main>
 
     <hr>  
