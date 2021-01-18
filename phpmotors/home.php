@@ -44,9 +44,17 @@
         <section>
             <h2>Delorean Upgrades</h2>
             <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux Capacitor">
+            <p><a href="#">Flux Capacitor</a></p>
+
             <img src="/phpmotors/images/upgrades/flame.jpg" alt="Flame Decals">
+            <p><a href="#">Flame Decals</a></p>
+
             <img src="/phpmotors/images/upgrades/bumper_sticker.jpg" alt="Bumper Stickers">
+            <p><a href="#">Bumper Stickers</a></p>
+
             <img src="/phpmotors/images/upgrades/hub-cap.jpg" alt="Hub Caps">
+            <p><a href="#">Hub Caps</a></p>
+
         </section>
     </main>
 
