@@ -1,4 +1,4 @@
-<ul>
+<ul class="my-nav">
     <li><a href="#">Home</a></li>
     <li><a href="#">Classics</a></li>
     <li><a href="#">Sports</a></li>

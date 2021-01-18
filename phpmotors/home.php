@@ -32,16 +32,17 @@
             <img class="own-today" src="/phpmotors/images/site/own_today.png" alt="Today owner">
         </section>
 
-        <section>
-            <h2>DMC Delorean Reviews</h2>
-            <ol>
-                <li>."So fast its almost like traveling in time." (4/5)</li>
+        <h2 class="h2-reviews">DMC Delorean Reviews</h2>
+        <div class="reviews">
+            <!-- <h2>DMC Delorean Reviews</h2> -->
+            <ul id="li-reviews">       
+                <li>"So fast its almost like traveling in time." (4/5)</li>
                 <li>."Coolest ride on the road." (4/5)</li>
                 <li>."I'm feeling Marty McFly!." (5/5)</li>
                 <li>."The most futuristic ride of our day." (4.5/5)</li>
                 <li>."80's livin and I love it!." (5/5)</li>
-            </ol>
-        </section>
+            </ul>
+</div>
         <section>
             <h2>Delorean Upgrades</h2>
             <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux Capacitor">
