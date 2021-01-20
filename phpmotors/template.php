@@ -26,7 +26,7 @@
         </section>
     </main>
 
-    <hr>  
+    <hr>
 
 
     <footer>

@@ -1,3 +1,10 @@
+html {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
 #navLink {
     float: right;
     font-size: 26px;
@@ -47,6 +54,7 @@ p {
     text-align: center;
 }
 
+
 a:active {
     background-color: #4c96d7;
 }
@@ -59,7 +67,7 @@ a:hover {
 .first-section {
     color: #4c96d7;
     margin-left: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 
 #title-1 {
@@ -78,9 +86,9 @@ a:hover {
 .delorean-car {
     position: relative;
     width: 400px;
-    height: 210px;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    height: 280px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     z-index: -5;
 }
 
@@ -171,15 +179,17 @@ a:hover {
 
 /* This for the large screen */
 
-@media screen and (min-width: 720px) {
+@media only screen and (min-width: 720px) {
 
     html {
         background-image: url(../images/site/small_check.jpg);
         background-repeat: repeat;
         margin-top: 15px;
-        padding-left: 10%;
-        padding-right: 10%;
-
+        padding-left: 15%;
+        padding-right: 15%;
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 400;
     }
 
     body {
@@ -193,45 +203,48 @@ a:hover {
         background-color: #4c96d7;
     }
 
-    .first-section,
-    .heading-2 {
-        padding-left: 20px;
+    .first-section {
+        padding-left: 30px;
+    }
+
+     .own-today {
+        width: 180px;
+        height: 58px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: absolute;
+        display: flex;
+        top: 350px;
+        left: 250px;
+    }
+
+
+    .delorean-car {
+        width: 800px;
+        height: 400px;
+        z-index: 0;
+        padding-left: 10px;
+    }
+
+
+    .before-footer {
+        display: grid;
+        grid-template-columns: auto 850px auto auto;
+        grid-gap: 100px;
+        padding: 100px 50px;
+
+    }
+
+    .part-1 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+
+    }
+
+
+    .part-2 {
+
+        grid-row-start: 2;
     }
 }
-
-.delorean-car {
-    position: relative;
-    width: 400px;
-    height: 210px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.own-today {
-    width: 180px;
-    height: 58px;
-    margin-left: auto;
-    margin-right: auto;
-    /* position: absolute; */
-    display: flex;
-    top: 350px;
-    left: 300px;
-    z-index: 1;
-
-}
-
-
-.delorean-car {
-    width: 400px;
-    height: auto;
-    z-index: 0;
-    padding-left: 10px;
-}
-
-/* .lastpart{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 15px;
-    padding: 30px 30px 30px 30px;
-    justify-content: space-around;
-} */

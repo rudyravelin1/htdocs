@@ -35,39 +35,53 @@
                 <img class="own-today" src="/phpmotors/images/site/own_today.png" alt="Today owner">
             </div>
 
-            <h2 class="h2-reviews">DMC Delorean Reviews</h2>
-            <div class="reviews">
-                <ul id="li-reviews">
-                    <li>"So fast its almost like traveling in time." (4/5)</li>
-                    <li>"Coolest ride on the road." (4/5)</li>
-                    <li>"I'm feeling Marty McFly!." (5/5)</li>
-                    <li>"The most futuristic ride of our day." (4.5/5)</li>
-                    <li>"80's livin and I love it!." (5/5)</li>
-                </ul>
-            </div>
-            <h2 class="upgrade">Delorean Upgrades</h2>
 
-            <div class="container">
-                <div class="pic-1">
-                    <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux Capacitor">
-                    <p><a href="#">Flux Capacitor</a></p>
+            <section class="before-footer">
+
+                <!-- This is the last section -->
+
+                <!-- Last section part 1 -->
+                <div class="part-1">
+                    <h2 class="h2-reviews">DMC Delorean Reviews</h2><br>
+                    <div class="reviews">
+
+                        <ul id="li-reviews">
+                            <li>"So fast its almost like traveling in time." (4/5)</li>
+                            <li>"Coolest ride on the road." (4/5)</li>
+                            <li>"I'm feeling Marty McFly!." (5/5)</li>
+                            <li>"The most futuristic ride of our day." (4.5/5)</li>
+                            <li>"80's livin and I love it!." (5/5)</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="pic-2">
-                    <img class="img-2" src="/phpmotors/images/upgrades/flame.jpg" alt="Flame Decals">
-                    <p><a href="#">Flame Decals</a></p>
-                </div>
+                <!-- Last section part 2 -->
 
-                <div class="pic-3">
-                    <img src="/phpmotors/images/upgrades/bumper_sticker.jpg" alt="Bumper Stickers">
-                    <p><a href="#">Bumper Stickers</a></p>
-                </div>
+                <div class="part-2">
+                    <h2 class="upgrade">Delorean Upgrades</h2><br>
 
-                <div class="pic-4">
-                    <img class="img-4" src="/phpmotors/images/upgrades/hub-cap.jpg" alt="Hub Caps">
-                    <p class="hub-4"><a href="#">Hub Caps</a></p>
-                </div>
-        </section>
+                    <div class="container">
+                        <div class="pic-1">
+                            <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux Capacitor">
+                            <p><a href="#">Flux Capacitor</a></p>
+                        </div>
+
+                        <div class="pic-2">
+                            <img class="img-2" src="/phpmotors/images/upgrades/flame.jpg" alt="Flame Decals">
+                            <p><a href="#">Flame Decals</a></p>
+                        </div>
+
+                        <div class="pic-3">
+                            <img src="/phpmotors/images/upgrades/bumper_sticker.jpg" alt="Bumper Stickers">
+                            <p><a href="#">Bumper Stickers</a></p>
+                        </div>
+
+                        <div class="pic-4">
+                            <img class="img-4" src="/phpmotors/images/upgrades/hub-cap.jpg" alt="Hub Caps">
+                            <p class="hub-4"><a href="#">Hub Caps</a></p>
+                        </div>
+                    </div>
+            </section>
 
 
     </main>
